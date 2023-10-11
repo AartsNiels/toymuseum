@@ -3,36 +3,26 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ActivateObjectOnTouch : MonoBehaviour
 {
-    private XRGrabInteractable interactable;
+    public GameObject objectToActivate;
+    private XRBaseInteractable interactable;
+    private bool isActivated = false;
 
-    [SerializeField]
-    private GameObject objectToActivate;
-
-    private void Awake()
+    private void Start()
     {
-        interactable = GetComponent<XRGrabInteractable>();
-
-        if (interactable == null)
-        {
-            Debug.LogError("XRGrabInteractable component not found on the object.");
-        }
-    }
-
-    private void OnEnable()
-    {
+        interactable = GetComponent<XRBaseInteractable>();
         interactable.onSelectEntered.AddListener(ActivateObject);
-    }
-
-    private void OnDisable()
-    {
-        interactable.onSelectEntered.RemoveListener(ActivateObject);
+        interactable.onSelectExited.AddListener(DeactivateObject);
     }
 
     private void ActivateObject(XRBaseInteractor interactor)
     {
-        if (objectToActivate != null)
-        {
-            objectToActivate.SetActive(true);
-        }
+        objectToActivate.SetActive(true);
+        isActivated = true;
+    }
+
+    private void DeactivateObject(XRBaseInteractor interactor)
+    {
+        objectToActivate.SetActive(false);
+        isActivated = false;
     }
 }
