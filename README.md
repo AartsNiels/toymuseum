@@ -5,9 +5,9 @@ Immersieve beleving 'De Kinderspelen' in opdracht van Speelgoedmuseum Mechelen. 
 
 
 Spellen in de schilderij "Kinderspelen":
-(bron) "https://nl.wikipedia.org/wiki/Kinderspelen"
+- (bron) "https://nl.wikipedia.org/wiki/Kinderspelen"
 
-Nummer	Afbeelding	Spel
+Nummer		Spel
 - 1		Bikkelen
 - 2		Speelpop
 - 3		Poppenhuisje
@@ -67,33 +67,33 @@ Nummer	Afbeelding	Spel
 - 58		Steekspel, tornooien
 - 59		In het zand spelen, putjes graven en kastelen bouwen
 - 60/61		De berg is mijn
-62		Rokken laten zwieren, boeffen maken, aaien en blaaien, molen spelen
-63		Boomklimmen
-64		Zwemmen met varkensblaas
-65		Pootje baden
-66		Zwemmen van de kant
-67		Na het baden
-68		Muurtje-bots, bocce, leren ballen zo dicht mogelijk bij de kleine bal gooien
-69		Plassen
-70		Kootspel, kotenspel, vorm van kegelen
-71		Klinkerdspel, klink slaan, estafette lopen
-72		Knikkeren, putjes stekken, negenpetten
-73		Katje, katje koningstoeltje, de onttroonde koning, duivel aan een koord, twee aan een koord (rollenspel)
-74		Tegen het kelderluik oplopen
-75		Vechten, worstelen (een vrouw kapt water op de vechters)
-76		Hoed op een stok draaien
-77		Processie spelen
-78		Rattenstaart, zwaan-kleef-aan, Hansje sjokken (rollenspel)
-79		Portier spelen, bezoek ontvangen
-80		Nalopertje, eerste mannetje achterna, katje jagen
-81		Iemand van de bank duwen
-82		Paardje, koetje, kalfje; paardrijden in de nek
-83		Balletje steken; duike duike reve; stom-en-ambacht
-84		Ros Beiaard en de Vier Heemskinderen
-85		Vuurtje stoken
-86		Takkenbossen dragen voor het vuur
-87		Fakkel dragen
-88		Aan de deur zingen
-89		Wandelen
-90		Wimpel uithangen, papieren lint laten wapperen
-91		Korven langs een koord doen bewegen (Sint-Niklaasmanden met roede en schoenen?)
+- 62		Rokken laten zwieren, boeffen maken, aaien en blaaien, molen spelen
+- 63		Boomklimmen
+- 64		Zwemmen met varkensblaas
+- 65		Pootje baden
+- 66		Zwemmen van de kant
+- 67		Na het baden
+- 68		Muurtje-bots, bocce, leren ballen zo dicht mogelijk bij de kleine bal gooien
+- 69		Plassen
+- 70		Kootspel, kotenspel, vorm van kegelen
+- 71		Klinkerdspel, klink slaan, estafette lopen
+- 72		Knikkeren, putjes stekken, negenpetten
+- 73		Katje, katje koningstoeltje, de onttroonde koning, duivel aan een koord, twee aan een koord (rollenspel)
+- 74		Tegen het kelderluik oplopen
+- 75		Vechten, worstelen (een vrouw kapt water op de vechters)
+- 76		Hoed op een stok draaien
+- 77		Processie spelen
+- 78		Rattenstaart, zwaan-kleef-aan, Hansje sjokken (rollenspel)
+- 79		Portier spelen, bezoek ontvangen
+- 80		Nalopertje, eerste mannetje achterna, katje jagen
+- 81		Iemand van de bank duwen
+- 82		Paardje, koetje, kalfje; paardrijden in de nek
+- 83		Balletje steken; duike duike reve; stom-en-ambacht
+- 84		Ros Beiaard en de Vier Heemskinderen
+- 85		Vuurtje stoken
+- 86		Takkenbossen dragen voor het vuur
+- 87		Fakkel dragen
+- 88		Aan de deur zingen
+- 89		Wandelen
+- 90		Wimpel uithangen, papieren lint laten wapperen
+- 91		Korven langs een koord doen bewegen (Sint-Niklaasmanden met roede en schoenen?)
