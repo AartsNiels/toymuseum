@@ -8,14 +8,14 @@ Spellen in de schilderij "Kinderspelen":
 - (bron) "https://nl.wikipedia.org/wiki/Kinderspelen"
 -    ![image](https://github.com/AartsNiels/toymuseum/blob/main/kinderspelen.jpg)
 Nummer		Spel
-- 1		Bikkelen
-- 2		Speelpop
+- 1		**Bikkelen**
+- 2		**Speelpop**
 - 3		Poppenhuisje
 - 4		Altaarspel, priestertje spelen
 - 5		Uil en uilenkot
 - 6		Spuitebus
 - 7		Maskerspel
-- 8		Schommelen
+- 8		*Schommelen*
 - 9		Drilnoot, draaimolentje maken van (noten)schelpen
 - 10		Zeepbellen blazen en biezenhoed
 - 11		Spelen met een (tamme) vogel
@@ -24,11 +24,11 @@ Nummer		Spel
 - 14		Doop, doopstoet
 - 15		Blindemannetje
 - 16		Kinderstoel
-- 17		Paar of onpaar, noten-patoten, laten raden hoeveel voorwerpen men in de hand heeft (cf. morra)
+- 17		*Paar of onpaar, noten-patoten, laten raden hoeveel voorwerpen men in de hand heeft (cf. morra)*
 - 18		Stokpaardje
 - 19		Koele-koelemeien, kakkekoelemeien, kakkestoelemeien; jezusken in 't kapelleke, zeteltje, engeltje dragen
 - 20		Trommel en fluit
-- 21		Brij roeren, in een drol poken
+- 21		**Brij roeren, in een drol poken**
 - 22		Hoepel rollen
 - 23		Rinkelhoep
 - 24		Door 't bomgat roepen
@@ -47,8 +47,8 @@ Nummer		Spel
 - 37		Touwtrekken, trekken over de lijn of over de steen, riemtrekken te paard
 - 38		Spitskar, rijschenkelen, door schoppende benen lopen (cf. spitsroeden lopen)
 - 39		Zichzelf in een knoop leggen, tabak rollen, kopje duikelen
-- 40		Handstand, perenboom staan, hille billen
-- 41		Koprol
+- 40		*Handstand, perenboom staan, hille billen*
+- 41		*Koprol*
 - 42		Over het hek klauteren
 - 43		Paardje rijden op het hek
 - 44		Bruid en bruidegom spelen, rozen- en klaprozenblaadjes strooien over een bruidsstoet
@@ -56,22 +56,22 @@ Nummer		Spel
 - 46		Steltlopen (laag)
 - 47		Blindenhoedje met slofkentrek, vluchten, zagjagen, brooiken-bijt
 - 48		Hoopjes schieten, walnoten werpen
-- 49		Ronddraaien, dansen
+- 49		*Ronddraaien, dansen*
 - 50		Steltlopen (hoog)
 - 51		Balk, rekturnen
 - 52		Een bezem balanceren
 - 53		Kalfje vet, zakdragen
-- 54/55		Draaitol (werptol, kapnon / zweeptol, drijftol, kletsnon)
+- 54/55		**Draaitol (werptol, kapnon / zweeptol, drijftol, kletsnon)**
 - 56		Wie zit er in mijn blauwe toren? Wie zal ik kiezen?
 - 57		Klepbord, ratelen
 - 58		Steekspel, tornooien
-- 59		In het zand spelen, putjes graven en kastelen bouwen
+- 59		*In het zand spelen, putjes graven en kastelen bouwen*
 - 60/61		De berg is mijn
 - 62		Rokken laten zwieren, boeffen maken, aaien en blaaien, molen spelen
 - 63		Boomklimmen
 - 64		Zwemmen met varkensblaas
 - 65		Pootje baden
-- 66		Zwemmen van de kant
+- 66		*Zwemmen van de kant*
 - 67		Na het baden
 - 68		Muurtje-bots, bocce, leren ballen zo dicht mogelijk bij de kleine bal gooien
 - 69		Plassen
