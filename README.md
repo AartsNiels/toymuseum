@@ -6,7 +6,7 @@ Immersieve beleving 'De Kinderspelen' in opdracht van Speelgoedmuseum Mechelen. 
 
 Spellen in de schilderij "Kinderspelen":
 - (bron) "https://nl.wikipedia.org/wiki/Kinderspelen"
-
+-    ![image](https://github.com/AartsNiels/toymuseum/blob/main/kinderspelen.jpg)
 Nummer		Spel
 - 1		Bikkelen
 - 2		Speelpop
