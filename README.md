@@ -44,7 +44,7 @@ Nummer		Spel
 - 34		Duivekater
 - 35		't Blindemannetje ronddragen, heven, mannetje tillen
 - 36		Haasje-over
-- 37		Touwtrekken, trekken over de lijn of over de steen, riemtrekken te paard
+- 37		Touwtrekken, trekken over de lijn of over de steen, riemtrekken te paard - "https://www.mixamo.com/#/?page=1&query=pulling"
 - 38		Spitskar, rijschenkelen, door schoppende benen lopen (cf. spitsroeden lopen)
 - 39		Zichzelf in een knoop leggen, tabak rollen, kopje duikelen
 - 40		*Handstand, perenboom staan, hille billen*
@@ -68,12 +68,12 @@ Nummer		Spel
 - 59		*In het zand spelen, putjes graven en kastelen bouwen*
 - 60/61		De berg is mijn
 - 62		Rokken laten zwieren, boeffen maken, aaien en blaaien, molen spelen
-- 63		Boomklimmen
+- 63		Boomklimmen - "https://www.mixamo.com/#/?page=1&query=climming"
 - 64		Zwemmen met varkensblaas
 - 65		Pootje baden
-- 66		*Zwemmen van de kant*
+- 66		*Zwemmen van de kant* - "https://www.mixamo.com/#/?page=1&query=swimming"
 - 67		Na het baden
-- 68		Muurtje-bots, bocce, leren ballen zo dicht mogelijk bij de kleine bal gooien
+- 68		Muurtje-bots, bocce, leren ballen zo dicht mogelijk bij de kleine bal gooien - "https://www.mixamo.com/#/?page=1&query=trowing"
 - 69		Plassen
 - 70		Kootspel, kotenspel, vorm van kegelen
 - 71		Klinkerdspel, klink slaan, estafette lopen
@@ -94,6 +94,6 @@ Nummer		Spel
 - 86		Takkenbossen dragen voor het vuur
 - 87		Fakkel dragen
 - 88		Aan de deur zingen
-- 89		Wandelen
+- 89		Wandelen - "https://www.mixamo.com/#/?page=1&query=walking"
 - 90		Wimpel uithangen, papieren lint laten wapperen
 - 91		Korven langs een koord doen bewegen (Sint-Niklaasmanden met roede en schoenen?)
