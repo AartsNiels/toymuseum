@@ -14,13 +14,13 @@ public class ActivateObjectOnTouch : MonoBehaviour
         interactable.onSelectExited.AddListener(DeactivateObject);
     }
 
-    private void ActivateObject(XRBaseInteractor interactor)
+    public void ActivateObject(XRBaseInteractor interactor)
     {
         objectToActivate.SetActive(true);
         isActivated = true;
     }
 
-    private void DeactivateObject(XRBaseInteractor interactor)
+    public void DeactivateObject(XRBaseInteractor interactor)
     {
         objectToActivate.SetActive(false);
         isActivated = false;
