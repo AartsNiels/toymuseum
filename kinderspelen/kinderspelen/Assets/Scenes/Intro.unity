@@ -1026,7 +1026,7 @@ CharacterJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252840798}
-  m_ConnectedBody: {fileID: 0}
+  m_ConnectedBody: {fileID: 367787501}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
@@ -1053,7 +1053,7 @@ CharacterJoint:
     bounciness: 0
     contactDistance: 0
   m_Swing2Limit:
-    limit: 40
+    limit: 37.18473
     bounciness: 0
     contactDistance: 0
   m_EnableProjection: 0
@@ -1785,7 +1785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2131914379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1880,7 +1880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c549cf9b02f410439d75241b6144f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDuration: 3
 --- !u!225 &2131914384
 CanvasGroup:
   m_ObjectHideFlags: 0
