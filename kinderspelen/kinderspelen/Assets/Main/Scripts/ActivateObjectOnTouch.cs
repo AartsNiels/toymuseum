@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using System.Collections;
 
 public class ActivateObjectOnTouch : MonoBehaviour
 {
     public GameObject objectToActivate;
     private XRBaseInteractable interactable;
     private bool isActivated = false;
+
+    private Coroutine activationCoroutine;
+    private Coroutine deactivationCoroutine;
 
     private void Start()
     {
@@ -16,12 +20,34 @@ public class ActivateObjectOnTouch : MonoBehaviour
 
     public void ActivateObject(XRBaseInteractor interactor)
     {
-        objectToActivate.SetActive(true);
-        isActivated = true;
+        if (activationCoroutine != null)
+        {
+            StopCoroutine(activationCoroutine);
+        }
+
+        activationCoroutine = StartCoroutine(ActivateObjectWithDelay(2f));
     }
 
     public void DeactivateObject(XRBaseInteractor interactor)
     {
+        if (deactivationCoroutine != null)
+        {
+            StopCoroutine(deactivationCoroutine);
+        }
+
+        deactivationCoroutine = StartCoroutine(DeactivateObjectWithDelay(10f));
+    }
+
+    private IEnumerator ActivateObjectWithDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        objectToActivate.SetActive(true);
+        isActivated = true;
+    }
+
+    private IEnumerator DeactivateObjectWithDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         objectToActivate.SetActive(false);
         isActivated = false;
     }
