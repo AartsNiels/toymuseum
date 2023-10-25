@@ -35,7 +35,7 @@ public class AnimationMatchingGame : MonoBehaviour
                 isAnimating = false;
 
                 Invoke("NextAnimation", 5);
-                //NextAnimation();
+                // NextAnimation();
             }
             else
             {

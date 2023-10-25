@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 455662b52d9725c4da87fbdf8aaabf18
+guid: ee29a33c6f3ef0149975ecd1e0065de4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: 6680537947534492037
-    second: Toon Character Armature|Toon Character Armature|Toon Character | Idle
+    second: Toon Character
   - first:
       74: -6161490734575160191
     second: Toon Character Armature|Toon Character Armature|Toon Character | Jump
@@ -23,7 +23,13 @@ ModelImporter:
     second: Toon Character Armature|Toon Character Armature|Toon Character | Walk
   - first:
       74: -203655887218126122
+    second: Bendover
+  - first:
+      74: -203655887218126122
     second: mixamo.com
+  - first:
+      74: -2383065897651159288
+    second: Bendover
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -54,12 +60,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Toon Character Armature|Toon Character Armature|Toon Character | Idle
-      takeName: Toon Character Armature|Toon Character Armature|Toon Character |
-        Idle
+      name: mixamo.com
+      takeName: mixamo.com
       internalID: 0
-      firstFrame: 0
-      lastFrame: 39
+      firstFrame: 55
+      lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -234,11 +239,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: mixamo.com
+      name: Bendover
       takeName: mixamo.com
       internalID: 0
-      firstFrame: 0
-      lastFrame: 137
+      firstFrame: 55
+      lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
