@@ -693,11 +693,11 @@ MonoBehaviour:
   correctBlocks:
   - {fileID: 1439013223}
   - {fileID: 416345571}
+  - {fileID: 607373214}
   - {fileID: 1441441561}
   - {fileID: 1995131874}
   animationDuration: 10
   pointsPerCorrectMatch: 1
-  delayBeforeNextAnimation: 5
 --- !u!4 &553775577
 Transform:
   m_ObjectHideFlags: 0

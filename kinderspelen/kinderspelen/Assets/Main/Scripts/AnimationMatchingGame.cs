@@ -8,7 +8,6 @@ public class AnimationMatchingGame : MonoBehaviour
     public GameObject[] correctBlocks;
     public float animationDuration = 2f;
     public int pointsPerCorrectMatch = 1;
-    public float delayBeforeNextAnimation = 5f;
 
     private int currentAnimationIndex = 0;
     private int score = 0;
@@ -35,7 +34,8 @@ public class AnimationMatchingGame : MonoBehaviour
                 animationObjects[currentAnimationIndex].SetActive(false);
                 isAnimating = false;
 
-                NextAnimation();
+                Invoke("NextAnimation", 5);
+                //NextAnimation();
             }
             else
             {
@@ -72,8 +72,6 @@ public class AnimationMatchingGame : MonoBehaviour
         isAnimating = true;
         yield return new WaitForSeconds(duration);
         animationObjects[currentAnimationIndex - 1].SetActive(false);
-        yield return new WaitForSeconds(delayBeforeNextAnimation); // Voeg een vertraging toe
         isAnimating = false;
-        NextAnimation(); // Start de volgende animatie na de vertraging
     }
 }
