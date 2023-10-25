@@ -28,8 +28,7 @@ public class IntroManager : MonoBehaviour
         }
         if (painting.GetComponent<OnTouchVariable>().hitPlayer == true && !fadeout)
         {
-            print("FadeOUt");
-            CanvasFade.GetComponent<FadeCanvas>().StartFadeIn();
+            CanvasFade.GetComponent<FadeCanvas>().QuickFadeIn();
             fadeout = true;
         }
         if (fadeout)
