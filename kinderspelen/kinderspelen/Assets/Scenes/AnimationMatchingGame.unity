@@ -533,7 +533,7 @@ PrefabInstance:
     - target: {fileID: 6957316600138037741, guid: eaecd93d9a7aef648901e10cb9833649, type: 3}
       propertyPath: objectToActivate
       value: 
-      objectReference: {fileID: 758737553}
+      objectReference: {fileID: 0}
     - target: {fileID: 8002890987785225906, guid: eaecd93d9a7aef648901e10cb9833649, type: 3}
       propertyPath: m_Name
       value: Bikkelen
@@ -648,8 +648,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 351609276}
-  - {fileID: 758737554}
-  - {fileID: 1058001956}
+  - {fileID: 1354600708}
+  - {fileID: 972428668}
   - {fileID: 1738412917}
   - {fileID: 1444923349}
   m_Father: {fileID: 0}
@@ -686,8 +686,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationObjects:
   - {fileID: 351609277}
-  - {fileID: 758737553}
-  - {fileID: 1058001957}
+  - {fileID: 8466090709027769574, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
+  - {fileID: 7654341532360845564, guid: 0c9bae795710bce48a59ed13aa0044c0, type: 3}
   - {fileID: 1738412918}
   - {fileID: 1444923350}
   correctBlocks:
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3b070499bffe44faf0326faf59ca56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1058001957}
+  objectToActivate: {fileID: 0}
 --- !u!65 &607373219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1118,16 +1118,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
---- !u!1 &758737553 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1416509646665544447, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
-  m_PrefabInstance: {fileID: 758737552}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &758737554 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1793458119642818629, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
-  m_PrefabInstance: {fileID: 758737552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &935027341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1215,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935027341}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &972428668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7021815219342242374, guid: 0c9bae795710bce48a59ed13aa0044c0, type: 3}
+  m_PrefabInstance: {fileID: 1058001955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001634144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,16 +1368,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c9bae795710bce48a59ed13aa0044c0, type: 3}
---- !u!4 &1058001956 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6893028145373074697, guid: 0c9bae795710bce48a59ed13aa0044c0, type: 3}
-  m_PrefabInstance: {fileID: 1058001955}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1058001957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6116772573327593395, guid: 0c9bae795710bce48a59ed13aa0044c0, type: 3}
-  m_PrefabInstance: {fileID: 1058001955}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1071653425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1730,6 +1715,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145125794}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1354600708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9094535703586772572, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
+  m_PrefabInstance: {fileID: 758737552}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1439013223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8002890987785225906, guid: eaecd93d9a7aef648901e10cb9833649, type: 3}
