@@ -8,6 +8,7 @@ public class OnTouchVariable : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.tag);
         if (other.gameObject.tag == "Player")
         {
             hitPlayer = true;
