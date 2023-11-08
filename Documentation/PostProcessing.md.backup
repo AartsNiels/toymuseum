@@ -1,0 +1,21 @@
+# Post - processing
+
+In this section we talk about what post-processing is and how we added it to our game.
+
+## What is post-processing
+
+The computer renders each frame as an still image/frame. After that the frame is rendered you can change alot about how the frame looks. Like for example you can add color grading this changes the colors in the frame (color, temperature, contrast, etc). But the more you change to the frame the more additional processing time it takes.
+
+## Why add post-processing
+
+We are gonne add post-processing to give the feeling that you are in an painting. So we want it to have a colder feeling than you would normaly have. This would give you more the feeling that youre imersed in the painting itself.
+
+## How to implement it in Unity
+
+1. In Unity we started a 3d project, we used the 2023.3.x version.
+2. Go to Window > Package Manager > Packages: Unity regestry
+3. Search for post processing and install the packages that you see named "Post Processing"
+4. Go to youre scene and the MainCamera component
+5. Add 2 components: "Post-process Layer", "Post Process Volume"
+6. In the "Post Process Volume" enable IsGlobal and under "Profile" create a New
+7. In this "Profile" you can add effects like color grading and bloom.
