@@ -23,19 +23,27 @@ public class IntroManager : MonoBehaviour
     {
         if (painting.active == true)
         {
-            i = (Time.time * PaintingSpeed) + startpos;
-            painting.transform.position = new Vector3(i, painting.transform.position.y, painting.transform.position.z);
+            if (painting.transform.position.x <= -5)
+            {
+                i = (Time.time * PaintingSpeed) + startpos;
+                painting.transform.position = new Vector3(i, painting.transform.position.y, painting.transform.position.z);
+            }
+            else
+            {
+                //Start
+                print("Start anim");
+            }
         }
-        if (painting.GetComponent<OnTouchVariable>().hitPlayer == true && !fadeout)
-        {
-            CanvasFade.GetComponent<FadeCanvas>().QuickFadeIn();
-            fadeout = true;
-        }
+        //if (painting.GetComponent<OnTouchVariable>().hitPlayer == true && !fadeout)
+        //{
+        //   CanvasFade.GetComponent<FadeCanvas>().QuickFadeIn();
+        //    fadeout = true;
+        //}
         if (fadeout)
         {
             if (CanvasFade.GetComponent<FadeCanvas>().GetComponent<CanvasGroup>().alpha == 1f)
             {
-                SceneManager.LoadScene("Main");
+                SceneManager.LoadScene("AnimationPlayer");
             }
         }
     }
