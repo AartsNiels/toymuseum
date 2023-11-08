@@ -42,7 +42,7 @@ public class IntroManager : MonoBehaviour
 
     IEnumerator DelayPainting()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         painting.SetActive(true);
     }
 }
