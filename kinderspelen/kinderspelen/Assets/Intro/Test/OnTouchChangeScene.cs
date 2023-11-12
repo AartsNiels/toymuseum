@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class OnTouchVariable : MonoBehaviour
+public class OnTouchChangeScene : MonoBehaviour
 {
-    public bool hitPlayer = false;
+    public string scene;
 
     void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.tag);
+
         if (other.gameObject.tag == "Player")
         {
-            hitPlayer = true;
-            gameObject.SetActive(!hitPlayer);
+            SceneManager.LoadScene(scene);
         }
     }
 }

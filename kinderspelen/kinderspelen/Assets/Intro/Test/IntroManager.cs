@@ -30,15 +30,14 @@ public class IntroManager : MonoBehaviour
             }
             else
             {
-                //Start
-                print("Start anim");
+                StartCoroutine(ActivatePainting());
             }
         }
-        //if (painting.GetComponent<OnTouchVariable>().hitPlayer == true && !fadeout)
-        //{
-        //   CanvasFade.GetComponent<FadeCanvas>().QuickFadeIn();
-        //    fadeout = true;
-        //}
+        if (painting.GetComponent<PaintingMoveBlocks>().endIntro == true && !fadeout)
+        {
+           CanvasFade.GetComponent<FadeCanvas>().StartFadeIn();
+           fadeout = true;
+        }
         if (fadeout)
         {
             if (CanvasFade.GetComponent<FadeCanvas>().GetComponent<CanvasGroup>().alpha == 1f)
@@ -52,5 +51,11 @@ public class IntroManager : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         painting.SetActive(true);
+    }
+
+    IEnumerator ActivatePainting()
+    {
+        yield return new WaitForSeconds(2.5f);
+        painting.GetComponent<PaintingMoveBlocks>().Active = true;
     }
 }
