@@ -23,19 +23,26 @@ public class IntroManager : MonoBehaviour
     {
         if (painting.active == true)
         {
-            i = (Time.time * PaintingSpeed) + startpos;
-            painting.transform.position = new Vector3(i, painting.transform.position.y, painting.transform.position.z);
+            if (painting.transform.position.x <= -5)
+            {
+                i = (Time.time * PaintingSpeed) + startpos;
+                painting.transform.position = new Vector3(i, painting.transform.position.y, painting.transform.position.z);
+            }
+            else
+            {
+                StartCoroutine(ActivatePainting());
+            }
         }
-        if (painting.GetComponent<OnTouchVariable>().hitPlayer == true && !fadeout)
+        if (painting.GetComponent<PaintingMoveBlocks>().endIntro == true && !fadeout)
         {
-            CanvasFade.GetComponent<FadeCanvas>().QuickFadeIn();
-            fadeout = true;
+           CanvasFade.GetComponent<FadeCanvas>().StartFadeIn();
+           fadeout = true;
         }
         if (fadeout)
         {
             if (CanvasFade.GetComponent<FadeCanvas>().GetComponent<CanvasGroup>().alpha == 1f)
             {
-                SceneManager.LoadScene("Main");
+                SceneManager.LoadScene("Scene1");
             }
         }
     }
@@ -44,5 +51,11 @@ public class IntroManager : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         painting.SetActive(true);
+    }
+
+    IEnumerator ActivatePainting()
+    {
+        yield return new WaitForSeconds(2.5f);
+        painting.GetComponent<PaintingMoveBlocks>().Active = true;
     }
 }
