@@ -42,7 +42,7 @@ public class IntroManager : MonoBehaviour
         {
             if (CanvasFade.GetComponent<FadeCanvas>().GetComponent<CanvasGroup>().alpha == 1f)
             {
-                SceneManager.LoadScene("AnimationPlayer");
+                SceneManager.LoadScene("Scene1");
             }
         }
     }
