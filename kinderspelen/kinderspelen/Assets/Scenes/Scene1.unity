@@ -345,7 +345,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111546292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -14.19}
+  m_LocalPosition: {x: 0, y: 0, z: -14.5}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4322,6 +4322,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1233032808}
+    - target: {fileID: 4029850241590380114, guid: 13d3925c5a93e0c4fbd09a7fde2e5442, type: 3}
+      propertyPath: m_Name
+      value: Wall fl1_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029850242850936731, guid: 13d3925c5a93e0c4fbd09a7fde2e5442, type: 3}
+      propertyPath: m_Name
+      value: Wall fl1_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4029850242855002620, guid: 13d3925c5a93e0c4fbd09a7fde2e5442, type: 3}
       propertyPath: m_RootOrder
       value: 3
