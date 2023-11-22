@@ -17,7 +17,7 @@ public class OnTouchChangeScene : MonoBehaviour
         }
     }
 
-    void ChangeScene(string sceneName)
+    public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
