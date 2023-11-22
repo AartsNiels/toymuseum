@@ -17,6 +17,7 @@ public class IntroManager : MonoBehaviour
     {
         startpos = painting.transform.position.x;
         StartCoroutine(DelayPainting());
+        CanvasFade.GetComponent<FadeCanvas>().StartFadeOut();
     }
 
     void Update()
