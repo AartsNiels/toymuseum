@@ -9,7 +9,7 @@ public class OnTouchChangeScene : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
+        //Debug.Log(other.gameObject.tag);
 
         if (other.gameObject.tag == "Player")
         {
