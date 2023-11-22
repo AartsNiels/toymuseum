@@ -24,7 +24,7 @@ public class FadeCanvas : MonoBehaviour
 
     private void Start()
     {
-        StartFadeOut();
+        //StartFadeOut();
     }
 
     public void StartFadeIn()
