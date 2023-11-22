@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wood
   - Metal
+  - lb_bird
+  - Stick
   layers:
   - Default
   - TransparentFX
