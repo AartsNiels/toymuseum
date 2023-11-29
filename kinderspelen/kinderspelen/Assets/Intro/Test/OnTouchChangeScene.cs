@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,16 +8,20 @@ public class OnTouchChangeScene : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Debug.Log(other.gameObject.tag);
-
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(scene);
+            StartCoroutine(LoadSceneWithDelay(scene, 5f));
         }
+    }
+
+    IEnumerator LoadSceneWithDelay(string sceneName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(sceneName);
     }
 
     public void ChangeScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        StartCoroutine(LoadSceneWithDelay(sceneName, 5f));
     }
 }
