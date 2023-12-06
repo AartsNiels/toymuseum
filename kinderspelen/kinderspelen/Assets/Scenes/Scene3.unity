@@ -921,6 +921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 29055196}
     m_Modifications:
+    - target: {fileID: 2132992397665319418, guid: 3bcb883eea91b4649b2068e27e267b4b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44e14bf1aac624743ac22d9c3b015ee1, type: 2}
     - target: {fileID: 3495548249570117890, guid: 3bcb883eea91b4649b2068e27e267b4b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -969,6 +973,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Haasje-over
       objectReference: {fileID: 0}
+    - target: {fileID: 7430201298158207757, guid: 3bcb883eea91b4649b2068e27e267b4b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44e14bf1aac624743ac22d9c3b015ee1, type: 2}
+    - target: {fileID: 7430201298158207757, guid: 3bcb883eea91b4649b2068e27e267b4b, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44e14bf1aac624743ac22d9c3b015ee1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bcb883eea91b4649b2068e27e267b4b, type: 3}
 --- !u!4 &478081385 stripped
@@ -5497,6 +5509,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2225982668658395530, guid: e578ddc7519ec544f85ea0a017acc79a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44e14bf1aac624743ac22d9c3b015ee1, type: 2}
     - target: {fileID: 4769410924920396095, guid: e578ddc7519ec544f85ea0a017acc79a, type: 3}
       propertyPath: m_Name
       value: WheelTurning
@@ -5545,6 +5561,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6427289561242666602, guid: e578ddc7519ec544f85ea0a017acc79a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3382baea8ecb1f14782b7951e09835f8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e578ddc7519ec544f85ea0a017acc79a, type: 3}
 --- !u!1001 &5716866968088342412
