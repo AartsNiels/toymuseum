@@ -7,6 +7,7 @@ public class Game_manager : MonoBehaviour
 {
     public GameObject CanvasFade;
     private bool fadeout = false;
+    public string Scene = "";
 
     void Start()
     {
@@ -19,7 +20,7 @@ public class Game_manager : MonoBehaviour
         {
             if (CanvasFade.GetComponent<FadeCanvas>().GetComponent<CanvasGroup>().alpha == 1f)
             {
-                SceneManager.LoadScene("Scene2");
+                SceneManager.LoadScene(Scene);
             }
         }
     }

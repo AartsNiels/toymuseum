@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.6
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4199616, g: 0.33551127, b: 0.22812659, a: 0.6}
+  m_IndirectSpecularColor: {r: 0.42041913, g: 0.33373857, b: 0.2280141, a: 0.6}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasFade: {fileID: 1482912137}
+  Scene: Scene2
 --- !u!1 &111546292
 GameObject:
   m_ObjectHideFlags: 0
