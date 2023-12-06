@@ -2268,7 +2268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400092, guid: d7bf5fc6800d56b459109410ec6a0510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.431873
+      value: -13.109
       objectReference: {fileID: 0}
     - target: {fileID: 400092, guid: d7bf5fc6800d56b459109410ec6a0510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2276,7 +2276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400092, guid: d7bf5fc6800d56b459109410ec6a0510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4313301
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 400092, guid: d7bf5fc6800d56b459109410ec6a0510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3764,7 +3764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
@@ -4974,7 +4974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: bec41a51df04c7347b56ccec55bf7de4, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
