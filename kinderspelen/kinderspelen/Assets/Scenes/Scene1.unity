@@ -425,7 +425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9216200083876772820, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_Name
-      value: Hat_1
+      value: Hat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
@@ -2008,7 +2008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562066342}
   m_Layer: 0
-  m_Name: Outsite walls
+  m_Name: Outsite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5161,7 +5161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2965118268099774948, guid: 75f8577584f0bc04d8d13398ddf47d55, type: 3}
       propertyPath: m_Name
-      value: Bin
+      value: Child Seat
       objectReference: {fileID: 0}
     - target: {fileID: 7796775592550194827, guid: 75f8577584f0bc04d8d13398ddf47d55, type: 3}
       propertyPath: m_RootOrder
