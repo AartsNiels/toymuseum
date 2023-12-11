@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.6
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4199616, g: 0.33551127, b: 0.22812659, a: 0.6}
+  m_IndirectSpecularColor: {r: 0.42041913, g: 0.33373857, b: 0.2280141, a: 0.6}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,11 +385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8407470126417715566, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.22
+      value: -14.161
       objectReference: {fileID: 0}
     - target: {fileID: 8407470126417715566, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.891
+      value: 5.063
       objectReference: {fileID: 0}
     - target: {fileID: 8407470126417715566, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1776,7 +1776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3522955778539423533, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  - {fileID: 2100000, guid: ee5729ee052e2413ca1eab632c5ea76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3288,6 +3288,7 @@ GameObject:
   - component: {fileID: 1066586794}
   - component: {fileID: 1066586796}
   - component: {fileID: 1066586795}
+  - component: {fileID: 1066586797}
   m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
@@ -3359,6 +3360,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066586793}
+  m_Mesh: {fileID: 5477734200924473538, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+--- !u!64 &1066586797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066586793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5477734200924473538, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
 --- !u!4 &1123169392 stripped
 Transform:
@@ -3438,7 +3453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
@@ -3594,7 +3609,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3522955778539423533, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  - {fileID: 2100000, guid: ee5729ee052e2413ca1eab632c5ea76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4081,7 +4096,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3522955778539423533, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  - {fileID: 2100000, guid: ee5729ee052e2413ca1eab632c5ea76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4622,7 +4637,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3522955778539423533, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  - {fileID: 2100000, guid: ee5729ee052e2413ca1eab632c5ea76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4767,7 +4782,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3522955778539423533, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  - {fileID: 2100000, guid: ee5729ee052e2413ca1eab632c5ea76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5150,7 +5165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1653829660855471086, guid: f0104724ee35ac54c9e6e1517e9bd834, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -3.31
       objectReference: {fileID: 0}
     - target: {fileID: 1653829660855471086, guid: f0104724ee35ac54c9e6e1517e9bd834, type: 3}
       propertyPath: m_LocalPosition.z
