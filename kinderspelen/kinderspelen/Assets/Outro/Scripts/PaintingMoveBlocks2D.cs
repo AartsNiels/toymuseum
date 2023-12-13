@@ -6,7 +6,7 @@ public class PaintingMoveBlocks2D : MonoBehaviour
 {
     public bool Active = false;
     public List<GameObject> blocks;
-    public float MoveSpeed = 1f;
+    public float MoveSpeed = 0.5f;
     public bool endIntro = false;
 
     private bool Delay = false;

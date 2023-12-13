@@ -24,4 +24,9 @@ public class OnTouchChangeScene : MonoBehaviour
     {
         StartCoroutine(LoadSceneWithDelay(sceneName, 5f));
     }
+
+    public void ChangeSceneInstant(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
