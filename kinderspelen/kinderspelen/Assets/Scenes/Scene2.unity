@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7230002725833752091, guid: 50e0a39893645bb4fa96b115e0513fd6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50e0a39893645bb4fa96b115e0513fd6, type: 3}
 --- !u!4 &126541804 stripped
@@ -1170,6 +1174,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 485774195585543903, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
+      propertyPath: height
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485774195585543903, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
+      propertyPath: xrOrigin
+      value: 
+      objectReference: {fileID: 1790984081}
+    - target: {fileID: 485774197166290230, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
+      propertyPath: height
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485774197166290230, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
+      propertyPath: xrOrigin
+      value: 
+      objectReference: {fileID: 1790984081}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
 --- !u!4 &787123890 stripped
@@ -2499,7 +2519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1689033507
 MonoBehaviour:
   m_ObjectHideFlags: 0
