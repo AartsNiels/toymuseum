@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.699936, g: 0.55918545, b: 0.38021097, a: 1}
+  m_IndirectSpecularColor: {r: 0.7006985, g: 0.5562309, b: 0.38002348, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1827,6 +1827,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 478006b1e2c0b44b4a8bcd6b50f4b5eb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+--- !u!1 &1625540668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7322666086365565800, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
+  m_PrefabInstance: {fileID: 1625540667}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1625540669
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625540668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5477734200924473538, guid: 9d2b82744cb4d411488296762cccf83d, type: 3}
 --- !u!1001 &1660798750
 PrefabInstance:
   m_ObjectHideFlags: 0
