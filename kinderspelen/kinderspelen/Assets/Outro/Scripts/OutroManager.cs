@@ -7,6 +7,7 @@ public class OutroManager : MonoBehaviour
     public GameObject painting;
     public GameObject CanvasFade;
     public GameObject BlackRoom;
+    public GameObject Smoke;
     private bool fadeout = false;
 
     void Start()
@@ -28,6 +29,7 @@ public class OutroManager : MonoBehaviour
             {
                 CanvasFade.SetActive(false);
                 BlackRoom.SetActive(true);
+                Smoke.SetActive(false);
             }
         }
     }
