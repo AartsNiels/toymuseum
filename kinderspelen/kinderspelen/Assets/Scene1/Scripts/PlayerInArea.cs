@@ -32,7 +32,6 @@ public class PlayerInArea : MonoBehaviour
     {
         if (other.gameObject.tag == "Player") // Als de speler in de zone is
         {
-            Debug.Log("In Zone");
             PlayerInZone = true;
         }
     }

@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 111546295}
   - component: {fileID: 111546294}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Info Teleport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
