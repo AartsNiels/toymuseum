@@ -4,36 +4,42 @@ using UnityEngine;
 
 public class PlayerInArea : MonoBehaviour
 {
-    private bool PlayerInZone;                  //check if the player is in trigger
-    public string AnimationToPlayName;          // Variabele om de naam van de animatie in te stellen
+    public GameObject uiElement; // Referentie naar het UI-element dat je wilt tonen
+
+    private bool PlayerInZone; // Check of de speler in de trigger is
 
     private void Start()
     {
-        PlayerInZone = false;                   //player not in zone       
+        PlayerInZone = false; // Speler niet in de zone       
+        uiElement.SetActive(false); // Zorg ervoor dat het UI-element in het begin verborgen is
     }
 
     private void Update()
     {
-        if (PlayerInZone)           //if in zone
+        if (PlayerInZone)
         {
-            Debug.Log("test");
-            gameObject.GetComponent<Animator>().Play(AnimationToPlayName);
+            // Als de speler in de zone is, toon dan het UI-element
+            uiElement.SetActive(true);
+        }
+        else
+        {
+            // Als de speler niet in de zone is, verberg het UI-element
+            uiElement.SetActive(false);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")     //if player in zone
+        if (other.gameObject.tag == "Player") // Als de speler in de zone is
         {
-            Debug.Log("test");
+            Debug.Log("In Zone");
             PlayerInZone = true;
         }
     }
 
-
-    private void OnTriggerExit(Collider other)     //if player exit zone
+    private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player") // Als de speler de zone verlaat
         {
             PlayerInZone = false;
         }
