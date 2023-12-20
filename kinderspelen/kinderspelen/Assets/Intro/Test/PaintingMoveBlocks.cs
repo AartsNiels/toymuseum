@@ -11,9 +11,9 @@ public class PaintingMoveBlocks : MonoBehaviour
     public bool endIntro = false;
 
     private bool delay = false;
-    private float DelayTime = 0.5f;
+    private float DelayTime = 0.3f;
     private int iterations = 0;
-    private int MaxLength = 20;
+    private int MaxLength = 30;
 
     void Update()
     {
@@ -25,11 +25,6 @@ public class PaintingMoveBlocks : MonoBehaviour
                 StartCoroutine(DelayPainting());
                 delay = true;
                 iterations += 1;
-            }
-            if (iterations/4 == 4)
-            {
-                DelayTime = 0.3f;
-                MaxLength = 30;
             }
             else if(iterations / 4 == 16)
             {
