@@ -4333,6 +4333,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
   m_PrefabInstance: {fileID: 1304322697}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1309884281
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1935718752}
+    m_Modifications:
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356029261548433012, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+      propertyPath: m_Name
+      value: tower_house_2 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+--- !u!4 &1309884282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4692645881365755086, guid: 4e0541cf9ba898e4dbe76afe502218ad, type: 3}
+  m_PrefabInstance: {fileID: 1309884281}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1326116942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2945712325646592390, guid: 1eabcc9d2449bd1408811209703ce5b4, type: 3}
@@ -6063,6 +6141,7 @@ Transform:
   - {fileID: 247595420}
   - {fileID: 1971098165}
   - {fileID: 1507982794}
+  - {fileID: 1309884282}
   m_Father: {fileID: 919767348}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
