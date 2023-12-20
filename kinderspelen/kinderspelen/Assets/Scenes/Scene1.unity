@@ -5223,7 +5223,7 @@ PrefabInstance:
     - target: {fileID: 7962241678823691187, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d414019a8271b4445baf21b5737237e5, type: 2}
+      objectReference: {fileID: 2100000, guid: eb864a6072409e44aaf3d6721aad5291, type: 2}
     - target: {fileID: 8466090709027769574, guid: 46fdc965ccef590408f57ef28af1b059, type: 3}
       propertyPath: m_Name
       value: Throwing Character
