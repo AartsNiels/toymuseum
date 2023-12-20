@@ -26,7 +26,7 @@ public class PaintingMoveBlocks : MonoBehaviour
                 delay = true;
                 iterations += 1;
             }
-            else if(iterations / 4 == 16)
+            if(iterations / 4 == 16)
             {
                 DelayTime = 0.1f;
                 MaxLength = 50;
