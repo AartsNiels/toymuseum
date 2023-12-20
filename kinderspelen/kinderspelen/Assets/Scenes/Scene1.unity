@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 35174483}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: grab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1615,7 +1615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424540841}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1956,11 +1956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9032954039820430273, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_MaxRaycastDistance
-      value: 1.3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9146015503685400394, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_MaxRaycastDistance
-      value: 1.3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3327657640790614076, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
@@ -7219,9 +7219,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1292856284345692548, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103264732376055476, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264969920165605475, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5609178880899268882, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
       propertyPath: m_Name
       value: HobbyHorse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609178880899268882, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
@@ -7618,7 +7634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9142535375921384536, guid: babf11e83b248b04ebe7143c306f2279, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9142535375921529339, guid: babf11e83b248b04ebe7143c306f2279, type: 3}
       propertyPath: m_AttachTransform
