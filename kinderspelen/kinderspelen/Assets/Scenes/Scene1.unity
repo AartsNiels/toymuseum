@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 35174483}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: grab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1615,7 +1615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424540841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7219,34 +7219,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2103264732643145439, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_Size.x
-      value: 0.2708504
-      objectReference: {fileID: 0}
-    - target: {fileID: 2103264732643145439, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_Size.y
-      value: 1.1949254
-      objectReference: {fileID: 0}
-    - target: {fileID: 2103264732643145439, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_Center.x
-      value: -0.16913259
-      objectReference: {fileID: 0}
-    - target: {fileID: 2103264732643145439, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_Center.y
-      value: -0.16318855
-      objectReference: {fileID: 0}
-    - target: {fileID: 2103264732643145439, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_Center.z
-      value: 0.39999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 2264969920165839219, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2264969920165839219, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6
-      objectReference: {fileID: 0}
     - target: {fileID: 5609178880899268882, guid: 38a839d059b358e4aafd278667d8a70c, type: 3}
       propertyPath: m_Name
       value: HobbyHorse
@@ -7643,6 +7615,10 @@ PrefabInstance:
     - target: {fileID: 9142535375921151304, guid: babf11e83b248b04ebe7143c306f2279, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.072
+      objectReference: {fileID: 0}
+    - target: {fileID: 9142535375921384536, guid: babf11e83b248b04ebe7143c306f2279, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9142535375921529339, guid: babf11e83b248b04ebe7143c306f2279, type: 3}
       propertyPath: m_AttachTransform
