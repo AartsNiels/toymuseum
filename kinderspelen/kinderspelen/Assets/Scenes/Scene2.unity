@@ -2701,6 +2701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stelten
       objectReference: {fileID: 0}
+    - target: {fileID: 485774195065925930, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 485774195065925931, guid: 1d5e00be04948fc4eadee796e5c389c0, type: 3}
       propertyPath: m_RootOrder
       value: 2
