@@ -3778,9 +3778,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a01d42647e69f8a418b3690908da4e40, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.45
+  m_Volume: 0.25
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3822,7 +3822,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3874,13 +3874,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d180a5af7160ba5449f8fe39d99904a5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.9
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 110
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 30
   MaxDistance: 50
@@ -5424,8 +5424,8 @@ Transform:
   - {fileID: 1602532506}
   - {fileID: 175841777}
   - {fileID: 1245151583}
-  - {fileID: 140499761}
   - {fileID: 1824264545}
+  - {fileID: 140499761}
   - {fileID: 35489989}
   - {fileID: 7658770171918149710}
   - {fileID: 792248559}
@@ -5874,7 +5874,7 @@ Transform:
   m_Children:
   - {fileID: 921594805}
   m_Father: {fileID: 1616016700}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1824264546
 BoxCollider:
